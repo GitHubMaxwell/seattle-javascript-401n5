@@ -5,6 +5,9 @@ import morgan from 'morgan';
 import cors from 'cors';
 
 import authRouter from './auth/router.js';
+///
+import uploadRouter from  './routes/upload.js';
+///
 
 import errorHandler from './middleware/error.js';
 import notFound from './middleware/404.js';
